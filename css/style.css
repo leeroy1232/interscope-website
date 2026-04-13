@@ -534,3 +534,16 @@ body {
 .nav-links a[href="contact.html"] {
   position: relative;
 }
+
+.quote-btn {
+  background: linear-gradient(135deg, #0f8fff, #35c4ff);
+  color: white !important;
+  border-radius: 8px;
+  padding: 10px 14px !important;
+  box-shadow: 0 8px 20px rgba(17, 146, 255, 0.25);
+}
+
+.quote-btn:hover {
+  transform: translateY(-2px);
+  background: linear-gradient(135deg, #35c4ff, #0f8fff);
+}
