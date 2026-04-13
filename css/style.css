@@ -79,6 +79,15 @@ body {
   color: #39b8ff;
 }
 
+.menu-toggle {
+  display: none;
+  background: transparent;
+  border: none;
+  color: white;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
 /* HERO */
 .hero,
 .page-hero {
