@@ -235,7 +235,7 @@ body {
   border: 1px solid rgba(255, 255, 255, 0.08);
   border-radius: 18px;
   padding: 30px 22px;
-  transition: all 0.35s ease;
+  transition: all 0.4s ease;
   box-shadow: 0 10px 28px rgba(0, 0, 0, 0.22);
   backdrop-filter: blur(10px);
 }
