@@ -531,3 +531,6 @@ body {
 .whatsapp-float:hover {
   transform: scale(1.08);
 }
+.nav-links a[href="contact.html"] {
+  position: relative;
+}
