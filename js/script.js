@@ -14,9 +14,3 @@ function revealOnScroll() {
 
 window.addEventListener("scroll", revealOnScroll);
 window.addEventListener("load", revealOnScroll);
-
-function submitForm(event) {
-  event.preventDefault();
-  alert("Thank you. Your message has been received.");
-  return false;
-}
