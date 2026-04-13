@@ -373,8 +373,39 @@ body {
 /* RESPONSIVE */
 @media (max-width: 992px) {
   .navbar {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+
+  nav {
+    width: 100%;
+  }
+
+  .nav-links {
+    display: none;
     flex-direction: column;
-    gap: 15px;
+    width: 100%;
+    background: rgba(6, 16, 28, 0.98);
+    margin-top: 15px;
+    padding: 15px 0;
+    border-radius: 12px;
+  }
+
+  .nav-links.show {
+    display: flex;
+  }
+
+  .nav-links li {
+    text-align: center;
+  }
+
+  .nav-links li::after {
+    display: none;
   }
 
   .hero-content h1 {
@@ -396,14 +427,37 @@ body {
   }
 }
 
-@media (max-width: 560px) {
- .logo-img {
-  height: 42px;
-}
+@media (max-width: 992px) {
+  .navbar {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+
+  nav {
+    width: 100%;
+  }
 
   .nav-links {
-    justify-content: center;
-    gap: 10px;
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    background: rgba(6, 16, 28, 0.98);
+    margin-top: 15px;
+    padding: 15px 0;
+    border-radius: 12px;
+  }
+
+  .nav-links.show {
+    display: flex;
+  }
+
+  .nav-links li {
+    text-align: center;
   }
 
   .nav-links li::after {
@@ -411,16 +465,47 @@ body {
   }
 
   .hero-content h1 {
-    font-size: 1.7rem;
+    font-size: 2.5rem;
+  }
+}@media (max-width: 992px) {
+  .navbar {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
   }
 
-  .hero-content p {
-    font-size: 0.95rem;
+  .menu-toggle {
+    display: block;
   }
 
-  .btn {
+  nav {
     width: 100%;
-    max-width: 260px;
+  }
+
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    background: rgba(6, 16, 28, 0.98);
+    margin-top: 15px;
+    padding: 15px 0;
+    border-radius: 12px;
+  }
+
+  .nav-links.show {
+    display: flex;
+  }
+
+  .nav-links li {
+    text-align: center;
+  }
+
+  .nav-links li::after {
+    display: none;
+  }
+
+  .hero-content h1 {
+    font-size: 2.5rem;
   }
 }
 
