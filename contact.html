@@ -64,8 +64,10 @@
 
   <section class="section">
     <h2>Send Us a Message</h2>
-    <form class="contact-form" onsubmit="return submitForm(event)">
-      <div class="form-row">
+    <form class="contact-form" action="https://formsubmit.co/info@interscopelimited.com" method="POST">
+      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_next" value="https://leeroy1232.github.io/interscope-website/thank-you.html">
+        <div class="form-row">
         <input type="text" placeholder="Your Full Name" required>
         <input type="email" placeholder="Your Email Address" required>
       </div>
